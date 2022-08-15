@@ -2,11 +2,11 @@
   "name": "natours",
   "version": "1.0.0",
   "description": "Built using modern technologies: node.js, express, mongoDB, mongoose and friends 😁",
-  "main": "index.js",
+  "default": "index.js",
   "scripts": {
     "start": "nodemon server.js",
     "parcel": "parcel ./public/js/index.js  --dist-dir ./public/js/dist",
-    "build": "parcel build ./public/js/index.js --dist-dir ./public/js"
+    "build": "parcel build ./public/js/index.js --dist-dir ./public/js/dist"
   },
   "keywords": [],
   "author": "",
